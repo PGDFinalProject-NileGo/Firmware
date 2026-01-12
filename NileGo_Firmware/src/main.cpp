@@ -90,7 +90,7 @@ void setup() {
   NimBLEService *pService = pServer->createService(SERVICE_UUID);
   pCharacteristic = pService->createCharacteristic(
                       CHARACTERISTIC_UUID,
-                      NIMBLE_PROPERTY_READ | NIMBLE_PROPERTY_WRITE
+                      NIMBLE_PROPERTY::READ | NIMBLE_PROPERTY::WRITE_NR
                     );
   pCharacteristic->setCallbacks(new MyCallbacks());
   pService->start();
