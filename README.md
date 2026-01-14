@@ -30,11 +30,11 @@ ESP32 firmware for smart bicycle locks with GPS and Bluetooth.
 
 ### **Documentation Folder Structure**
 
-  requirements.md          - Project requirements
-  architecture.md          - System design
-  setup_guide.md          - How to run locally
-  api_documentation.md    - API endpoints (backend)
-  testing_plan.md         - Test cases
+- requirements.md          - Project requirements
+-  architecture.md          - System design
+-  setup_guide.md          - How to run locally
+-  api_documentation.md    - API endpoints (backend)
+-  testing_plan.md         - Test cases
   
 ## Workflow
 
